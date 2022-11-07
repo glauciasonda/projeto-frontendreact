@@ -9,7 +9,7 @@ export default function Main(){
     return(
         <StyleMain>
             
-            <img src={SpaceKids}></img>
+            
         </StyleMain>
     )
 }

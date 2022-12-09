@@ -99,7 +99,7 @@ https://user-images.githubusercontent.com/11279432/197185533-14582ca3-9eb0-4a5a-
   ### Conseguiu terminar? Aqui temos alguns **desafios**
   1. Salvar e Recuperar conteúdo do carrinho usando o `LocalStorage`;
   2. Dediquem um tempo para melhorar o layout e a usabilidade do seu site! Se baseiem em outros e-commerces que vocês gostam para chegar em um resultado   mais próximo do padrão de design visto no mercado;
-  3. Se TODO O RESTO DO SITE  e os dois desafios anteriores estiverem funcionando, pensem: qual outra funcionalidade está faltando? Decidam o que vocês concordam que poderia ser uma boa adição à loja virtual (pode ser qualquer funcionalidade, desde que vocês consigam implementá-la). Todas as funcionalidades extras implementadas devem ser listadas e explicadas no readme do projeto para que possam ser avaliadas.
+  3. Se TODO O RESTO DO SITE  e os dois desafios anteriores estiverem funcionando, pensem: qual outra funcionalidade está faltando? Decidam o que vocês concordam que poderia ser uma boa adição à lo=ja virtual (pode ser qualquer funcionalidade, desde que vocês consigam implementá-la). Todas as funcionalidades extras implementadas devem ser listadas e explicadas no readme do projeto para que possam ser avaliadas.
   
   ## Entrega
   
@@ -118,3 +118,7 @@ https://user-images.githubusercontent.com/11279432/197185533-14582ca3-9eb0-4a5a-
 - Entregue o **link do repo** no [Formulário de entrega](https://forms.gle/S9XChPZravP3WdxL6) 
 - Utilize o **surge** para fazer o deploy do seu projeto.
 
+
+/** 
+  componente Filter: 
+*/

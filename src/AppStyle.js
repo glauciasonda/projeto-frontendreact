@@ -1,18 +1,11 @@
-import styled, { createGlobalStyle } from "styled-components";
+import  { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 *{
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 }`;
 
-export const Container = styled.div`
-    width: 100vw; 
-    height: 100vh;
-    background-color: whitesmoke; 
-    display: flex;
-    flex-direction: column;
-`;

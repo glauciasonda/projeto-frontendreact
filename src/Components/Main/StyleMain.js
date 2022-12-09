@@ -6,7 +6,9 @@ export const StyleMain = styled.main`
     overflow-y: auto;
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows:     0.5fr 2fr; 
     grid-template-areas: '. . Sort'
                           'Filtro Cards Cards';  
+    justify-items: end;
+    margin: 20px;
 `;

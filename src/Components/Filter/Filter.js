@@ -1,35 +1,50 @@
-import React, { useState } from "react";
-import { Input, StyleFilter } from "./StyleFilter";
+import useForm from "../../Hook/useForm";
+import { Form, Icone, Input, Lupa, StyleFilter } from "./StyleFilter";
+import IconeLupa from "../../Imagem/Lupa.png"
 
-const Filter = () => {
-    const [min, setMin] = useState("");
-    const [max, setMax] = useState("");
+const Filter = (props) => {
 
-    const onChangeMin = (event) => {
-        setMin(event.target.value);
-    }
-
-    const onChangeMax = (event) => {
-        setMax(event.target.value);
+    const {products, updateProducts} = props
+    const [form, onChangeForm] = useForm({min: "", max: ""});
+           
+    const handleClick = (event) => {
+        event.preventDefault()   
         
-    }
+        const  listFilter = products.filter((product)=>{
+            console.log(product);
+            if (form.max !== ""){
+                return (product.price >= form.min && product.price <= form.max)
+            } else {
+                return(product.price >= form.min)
+            }
+        })
+        updateProducts(listFilter)
+      }
 
         
     return(
         <StyleFilter>
             <h4>Filtrar por intervalo de preço: </h4>
-            
-                <p>De: </p>
-                <Input value={min} onChange={(e)=>onChangeMin(e)} placeholder="Minímo"></Input>
+            <Form onSubmit={(e)=>handleClick(e)}>
+            <p>De: </p>
+                <Input name="min" 
+                        required
+                        type="number"
+                        value={form.min} 
+                        onChange={onChangeForm} 
+                        placeholder="Minímo">
+                </Input>
                 <p>Até: </p>
-                <Input value={max} onChange={(e)=>onChangeMax(e)} placeholder="Máximo"></Input>
-
-            
+                <Input name="max" 
+                        type="number"
+                        value={form.max} 
+                        onChange={onChangeForm} 
+                        placeholder="Máximo">
+                </Input>
+                <Lupa type="submit"><Icone src={IconeLupa}></Icone></Lupa>
+            </Form>
             
         </StyleFilter>             
-        
-            
-            
         
     )
 

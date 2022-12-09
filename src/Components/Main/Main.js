@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleMain } from "./StyleMain";
-import SpaceKids from "../../Imagem/SpaceKids.jpg"
+
 import Cards from "../Cards/Cards";
 import NoResults from "../NoResults/NoResults";
 import Filter from "../Filter/Filter";

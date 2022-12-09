@@ -6,20 +6,18 @@ export const StyleHeader = styled.header`
     font-size: 1.5rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #da0231;
+    background-color: #3aaaff;
+    
     margin: 5px;
 `;
 
 export const Logo = styled.img`
-    width: auto;
-    height: auto;
-    max-width:  4rem;
-    max-height: 4rem;
-    border-radius: 50%;
-    margin: 10px;
+    width: 10rem;
+    height: 10rem;
     padding-top: 2px;
+
 `;
 
 export const IconeCarrinho = styled.img`

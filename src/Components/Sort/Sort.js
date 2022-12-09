@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {StyleSort} from "./StyleSort";
+import {Select, StyleSort} from "./StyleSort";
 
 
 const Sort = (props) =>{
@@ -57,13 +57,14 @@ const Sort = (props) =>{
     
     return(
         <StyleSort>
-            <select name="ordem" value={ordem} onChange={(e) => setOrdem(e.target.value)}  >
+            
+            <Select name="ordem" value={ordem} onChange={(e) => setOrdem(e.target.value)}  >
                 <option value={""}>Ordenar por:  </option>
                 <option value={1}>Menor Preço</option>
                 <option value={2}>Maior Preço</option>
                 <option value={3}>De A a Z</option>
                 <option value={4}>De Z a A</option>
-            </select>
+            </Select>
 
         </StyleSort>
     )

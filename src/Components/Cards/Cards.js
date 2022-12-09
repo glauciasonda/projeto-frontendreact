@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, ImgToy, StyleCards } from "./StyleCards";
+import { ButtonComprar, Card, ImgToy, StyleCards } from "./StyleCards";
 
 
 const Cards = (props) => {
@@ -23,7 +23,8 @@ const Cards = (props) => {
                                 <ImgToy src={`${urlBase}${listProducts.path}`} />
                                 <p>{listProducts.name}</p>
                                 <p>  {listProducts.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} </p>
-                                <button onClick={()=>addProduct(listProducts.id)}>Comprar</button> 
+                                <ButtonComprar onClick={()=>addProduct(listProducts.id)}>Comprar</ButtonComprar>
+                                {/*<button onClick={()=>addProduct(listProducts.id)}>Comprar</button> */}
                             </Card>
                     )
                 })

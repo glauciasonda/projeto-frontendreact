@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Barraca Infantil Foguete com Túnel ", 
+        "path": "/Imagem/BarracaFoguete.webp",
+        "price": 169.90,
+        "amount": 0
+    },
+    {
+        "id": 2,
+        "name": "Blocos de Encaixe TUDO Space - Exploração Espacial - 124 Peças", 
+        "path": "/Imagem/BolocosEncaixeTudoSpace.webp",
+        "price": 69.99,
+        "amount": 0
+    },
+    {
+        "id": 3,
+        "name": "Boneco Buzz Lightyear Patrulheiro Espacial Alfa", 
+        "path": "/Imagem/BonecoAstronautaBuzzLightyear.webp",
+        "price": 99.90,
+        "amount": 0
+    },
+    {
+        "id": 4,
+        "name": "Jogo Viagem Espacial", 
+        "path": "/Imagem/JogoViagemEspacial.jpeg",
+        "price": 59.99,
+        "amount": 0 
+    },
+    {
+        "id": 5,
+        "name": "Lego City Nave Espacial - 273 Peças", 
+        "path": "/Imagem/LegoCityNaveEspacial.webp",
+        "price": 299.49, 
+        "amount": 0
+    },
+    {
+        "id": 6,
+        "name": "Lego Duplo Town Missão de Ônibus Espacial - 23 Peças", 
+        "path": "/Imagem/LegoDuploOnibusEspacial.webp",
+        "price": 175.99,
+        "amount": 0
+    },
+    {
+        "id": 7,
+        "name": "Lego Icons Explorador da Galaxia - 1.254 Peças", 
+        "path": "/Imagem/LegoExploradorDaGalaxia.webp",
+        "price": 626.99, 
+        "amount": 0
+    },
+    {
+        "id": 8,
+        "name": "Lego Disney Foguete Espacial do Mickey e da Minnie", 
+        "path": "/Imagem/LegoMickeyFoguete.webp",
+        "price": 139.99,
+        "amount": 0 
+    },
+    {
+        "id": 9,
+        "name": "Ônibus Espacial Astronautas - Fun", 
+        "path": "/Imagem/OnibusEspacialAstronautaFun.webp",
+        "price": 89.90, 
+        "amount": 0
+    },
+    {
+        "id": 10,
+        "name": "Playmobil Space Guarda Espacial", 
+        "path": "/Imagem/PlaymobilGuardaEspacial.webp",
+        "price": 129.99, 
+        "amount": 0
+    },
+    {
+        "id": 11,
+        "name": "Robô Infantil Astronauta Musical Som e Luzes", 
+        "path": "/Imagem/RoboAstronautaMusical.webp",
+        "price": 99.90, 
+        "amount": 0
+    },
+    {
+        "id": 12,
+        "name": "Tapete Infantil Espaço Sideral", 
+        "path": "/Imagem/TapeteInfantilEspacoSideral.png",
+        "price": 134.99,
+        "amount": 0
+    }
+]

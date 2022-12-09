@@ -1,19 +1,12 @@
 import React from "react";
-import { Container, GlobalStyle } from "./AppStyle";
-import Footer from "./Components/Footer/Footer";
-import Header from "./Components/Header/Header";
-import Main from "./Components/Main/Main";
+import {  GlobalStyle } from "./AppStyle";
+import Store from "./Components/Store/Store";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Container>
-          <Header/>
-          <Main/>
-          <Footer/> 
-        
-      </Container>  
+      <Store />   
     </>
   );
 }

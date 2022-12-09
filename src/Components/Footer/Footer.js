@@ -2,7 +2,7 @@ import React from "react";
 import { StyleFooter, StyleImg } from "./StyleFooter";
 import GitIcon from "../../Imagem/github-icon.png";
 
-export default function Footer(){
+const  Footer = () => {
     return(
         <StyleFooter>
             <h6>Feito por Gláucia Sonda para Labenu  </h6> 
@@ -14,3 +14,4 @@ export default function Footer(){
         </StyleFooter>
     )
 }
+export default Footer

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Form = styled.form`
-    width: 30%;
-    height: 50%;
+    width: 50%;
+    height: 30%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,6 +26,14 @@ export const Input = styled.input`
 export const Lupa = styled.button`
     border: none;
     background-color: whitesmoke;
+
+    :hover {
+        filter: brightness(0.95);
+    }
+
+    :active{
+        filter: brightness(1.1)
+    }
     
 `;
 
